@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .btn button {
+            height: 60px;
+            width: 150px;
+            border-radius: 4px;
+            font-size: 27px;
+            transform: translate(570px,20px);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            background-color: blue;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .text {
+            font-size: 20px;
+            color: white;
+        }
+        #back {
+            height: 80vh;
+            width: 70%;
+            background-color: black;
+            margin: auto;
+            margin-top: 40px;
+            overflow-y: scroll;
+        }
+        @media screen and (max-width:480px) and (min-width:360px){
+            .btn button {
+            height: 50px;
+            width: 120px;
+            border-radius: 4px;
+            font-size: 23px;
+            transform: translate(170px,20px);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            background-color: blue;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        #back {
+            height: 80vh;
+            width: 100%;
+            background-color: black;
+            margin: auto;
+            margin-top: 40px;
+            overflow-y: scroll;
+        }
+        }
+    </style>
+
+    <section>
+        <div id="back"></div>
+        <div class="btn">
+            <button id="change">Generate</button>
+        </div>
+    </section>
+    <script src="lorem.js"></script>
+</body>
+</html>
